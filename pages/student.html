@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+<body>
+    <h2>Library Book Request Form</h2>
+
+    <form method="POST" action="/book-requests">
+        <label>Student Name:</label><br>
+        <input type="text" name="student_name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Book Title:</label><br>
+        <input type="text" name="book_title" required><br><br>
+
+        <label>Reason for Request:</label><br>
+        <textarea name="reason"></textarea><br><br>
+
+        <input type="submit" value="Submit Request">
+    </form>
+
+    <a href="/"><button>Back</button></a>
+</body>
+</html>
