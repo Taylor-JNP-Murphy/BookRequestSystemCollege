@@ -1,7 +1,6 @@
 # BookRequestSystemCollege
 
 modules required:
-    dependencies: 
     
     "express": "^5.2.1"
     
